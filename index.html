@@ -3,19 +3,39 @@
     <head>
         <title>game memes</title>
         <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
     </head>
     <body style="background: url(http://wallpapersqq.net/wp-content/uploads/2016/03/dark-souls-3-high-quality-wallpapers.jpg) no-repeat ; background-size: 100% ;">
-        <div class="container">
+      <script src="jquery-3.5.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Game Memes</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+    </nav>  
+
+          <div class="container">
             <div class="jumbotron">
                 <h1>Game Memes</h1>
             </div>
+          </div>
+        <div class="container-fluid">
+        <input id="searchtext" type="text" placeholder="Dark Souls,Skyrim,Fallout...">
+        <button id="searchgifs" type="submit" onclick="getdata()">Search</button>
+        <div class="inner"></div>
         </div>
 
 
-
-
-        <script src="bootstrap-4.4.1-dist.zip"></script>
-        <script src="jquery-3.5.0.min.js"></script>
+        
+        
     </body>
 </html>

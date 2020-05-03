@@ -1,0 +1,27 @@
+.container {   
+color:red;
+background-color: black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+}
+.container-fluid {
+    text-align: center;
+}
+.searchtext {
+    color: red;
+    background-color: black;
+}
+.searchgifs {
+    color: red;
+    background-color: black;
+}
+.jumbotron {   
+    color:red;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 50em;
+    }
+    .inner {
+        background-color: black;
+    }
